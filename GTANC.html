@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTANC</title>
+    <link rel="stylesheet" type="text/css" href="estilos/stylesprueba.css">
+</head>
+<body>
+    <header class="header">
+        <p>GRUPO TABASQUEÑO DE APOYO A NIÑOS CON CÁNCER</p>
+    </header>
+    <div class="navbar">
+        <nav class="menu-container">
+            <ul class="menu">
+                <li><a href="GTANC.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="flex-center">
+        <section id="fondo" class="flex-center">
+            <div class="texto">
+                <h1> APOYO A LOS NIÑOS CON CÁNCER <br>
+                   EN NUESTRO TABASCO</h1>
+                <p>Somos un grupo de apoyo que brinda ayuda a <br> niños con cáncer a través de las donaciones de tapitas.</p>
+            </div>
+        </section>
+    </section>
+    <section class="text-decoration">
+        <h1>ACERCA DE NOSOTROS</h1>
+    </section>
+    <div class="container">
+        <div class="service">
+            <img src="images/t1.jpg" alt="Servicio 1">
+            <div class="service-content">
+                <h3>DONAR TAPITAS</h3>
+                <p>Consiste en recolectar tapas de plástico y entregarlas a organizaciones benéficas o centros de reciclaje. Estas tapitas son luego vendidas a empresas recicladoras, y los fondos obtenidos se utilizan para apoyar diversas causas sociales, como el tratamiento de enfermedades.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="images/t2.jpg" alt="Servicio 2">
+            <div class="service-content">
+                <h3>BENEFICIOS</h3>
+                <p>Donar tapitas es una forma sencilla pero poderosa de marcar una diferencia positiva en el mundo, contribuyendo a la protección del medio ambiente y al apoyo a causas benéficas.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="images/tapita2.jpg" alt="Servicio 4">
+            <div class="service-content">
+                <h3>SISTEMA DE RECOLECCIÓN</h3>
+                <p>Nuestro sistema de recolección de tapas de plástico es un esfuerzo conjunto que involucra a la comunidad escolar en su conjunto para marcar una diferencia significativa en la vida de aquellos que enfrentan la batalla contra el cáncer infantil.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="images/TEEEEEE.webp" alt="Servicio 5">
+            <div class="service-content">
+                <h3>¿QUIÉNES SOMOS?</h3>
+                <p>Nos dedicamos a recolectar y donar tapas de plástico, como una poderosa fuente de ayuda para aquellos pequeños luchadores y sus familias. Estas tapas, aparentemente simples, se convierten en monedas de esperanza y solidaridad, ayudando a financiar tratamientos médicos, proporcionar apoyo emocional y aliviar la carga financiera que acompaña a esta difícil batalla.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="formulario-contacto">
+            <h2>¿Deseas unirte?</h2>
+            <form action="#" method="post">
+                <input type="text" name="nombre" placeholder="Nombre" required><br>
+                <input type="email" name="email" placeholder="Correo electrónico" required><br>
+                <textarea name="mensaje" rows="4" placeholder="Mensaje" required></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('mobile-menu');
+            const menuNav = document.querySelector('.menu');
+            menuToggle.addEventListener('click', function() {
+                menuNav.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
